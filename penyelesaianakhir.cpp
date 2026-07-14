@@ -29,4 +29,4 @@ int main()
                 HitungRerataBerparameter(Ujian1, Ujian2));
 
     return 0;
-}
+}  
