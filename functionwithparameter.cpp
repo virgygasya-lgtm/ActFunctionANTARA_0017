@@ -7,7 +7,6 @@ void input()
 {
     cout << "Masukkan Panjang : ";
     cin >> panjang;
-
     cout << "Masukkan Lebar : ";
     cin >> lebar;
 }
@@ -31,7 +30,7 @@ int main()
 {
     input();
     output();
+    cout << "Kelilingnya : " << kelilingPersegi(panjang, lebar);
 
-    cout << "Kelilingnya : "
-         << kelilingPersegi(panjang, lebar);
+    return 0;
 }
